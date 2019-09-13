@@ -1,20 +1,15 @@
 body {
   background-color: #F3BAC3;
   color: #163D57;
-  font-size: 5em;
+  font-size: 4em;
 }
 
 #title {
-  margin-left: 50%;
-  margin-right: 50%;
-  padding: .5em;
+  padding: .5em .5em .2em .5em;
 }
 
 #form_body {
   background-color: #EBDDEE;
-  margin-left: 50%;
-  margin-right: 50%;
-  padding: .5em;
 }
 
 #first_name_field {
@@ -31,4 +26,12 @@ body {
 
 #phone_field {
   padding: .5em;
+}
+
+input {
+  width: 90%;
+}
+
+input[type=submit] {
+  background-color: grey;
 }
