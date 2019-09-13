@@ -33,21 +33,25 @@ body {
 input[type=text] {
   width: 90%;
   border-radius: .5em;
+  border: solid #163D57;
 }
 
 input[type=email] {
   width: 90%;
   border-radius: .5em;
+  border: solid #163D57;
 }
 
 input[type=number] {
   width: 90%;
   border-radius: .5em;
+  border: solid #163D57;
 }
 
 input[type=submit] {
   background-color: #EBDDEE;
   border-radius: .5em;
+  border: solid #163D57;
   padding: .3em;
   margin: .5em;
 }
