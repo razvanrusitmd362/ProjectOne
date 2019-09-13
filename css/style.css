@@ -72,6 +72,8 @@ input[type=submit] {
 
   #form_body {
     background-color: #EBDDEE;
+    margin-left: 5%;
+    margin-right: 10%;
   }
 
   #first_name_field {
@@ -115,5 +117,6 @@ input[type=submit] {
     padding: .3em;
     margin: .5em;
     margin-left: 41em;
+    width: 5%;
   }
 }
