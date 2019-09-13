@@ -72,24 +72,26 @@ input[type=submit] {
 
   #form_body {
     background-color: #EBDDEE;
-    margin-left: 5%;
+    margin-left: 25%;
     margin-right: 10%;
+    height: 80%;
+    width: 50%;
   }
 
   #first_name_field {
-    padding: .5em;
+    padding: 1em;
   }
 
   #last_name_field {
-    padding: .5em;
+    padding: 1em;
   }
 
   #email_field {
-    padding: .5em;
+    padding: 1em;
   }
 
   #phone_field {
-    padding: .5em;
+    padding: 1em;
   }
 
   input[type=text] {
