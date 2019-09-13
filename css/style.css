@@ -5,9 +5,27 @@ body {
 }
 
 #title {
-
+  margin: auto;
+  padding: .5em;
 }
 
 #form_body {
   background-color: #EBDDEE;
+  padding: .5em;
+}
+
+#first_name_field {
+
+}
+
+#last_name_field {
+
+}
+
+#email_field {
+
+}
+
+#phone_field {
+
 }
