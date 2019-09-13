@@ -7,7 +7,8 @@ body {
 #title {
   padding: .5em .5em .2em .5em;
   margin: .5em;
-  font-size: 1.75em;
+  font-size: 1.5em;
+  font-family: 'Modak', cursive;
 }
 
 #form_body {
@@ -54,4 +55,5 @@ input[type=submit] {
   border: solid #163D57;
   padding: .3em;
   margin: .5em;
+  margin-left: 37%;
 }
