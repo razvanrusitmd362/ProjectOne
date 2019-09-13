@@ -6,6 +6,8 @@ body {
 
 #title {
   padding: .5em .5em .2em .5em;
+  margin: .5em;
+  font-size: 1.75em;
 }
 
 #form_body {
@@ -28,10 +30,24 @@ body {
   padding: .5em;
 }
 
-input {
+input[type=text] {
   width: 90%;
+  border-radius: .5em;
+}
+
+input[type=email] {
+  width: 90%;
+  border-radius: .5em;
+}
+
+input[type=number] {
+  width: 90%;
+  border-radius: .5em;
 }
 
 input[type=submit] {
-  background-color: grey;
+  background-color: #EBDDEE;
+  border-radius: .5em;
+  padding: .3em;
+  margin: .5em;
 }
