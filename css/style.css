@@ -70,7 +70,7 @@ input[type=submit] {
 
   #title {
     font-size: 1.5em;
-    margin-left: 3.5em; 
+    margin-left: 3.5em;
   }
 
   input[type=submit] {
@@ -137,7 +137,26 @@ input[type=submit] {
     border: solid #163D57;
     padding: .3em;
     margin: .5em;
-    margin-left: 41em;
-    width: 5%;
+    margin-left: 35em;
+    margin-right: 35em;
+    width: 20%;
+  }
+
+  #imgleft {
+    float: left;
+    width: 25em;
+    height: 20em;
+    padding: 15px;
+    margin-left: 1.875em;
+    margin-right: 2.5em;
+  }
+
+  #imgright {
+    float: right;
+    width: 25em;
+    height: 20em;
+    padding: 15px;
+    margin-left: 1.875em;
+    margin-right: 2.5em;
   }
 }
