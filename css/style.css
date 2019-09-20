@@ -70,10 +70,11 @@ input[type=submit] {
 
   #title {
     font-size: 1.5em;
+    margin-left: 3.5em; 
   }
 
   input[type=submit] {
-
+    margin-left: 1.8em;
   }
 @media only screen and (min-width: 1300px) { /* computer  screen */
   body {
