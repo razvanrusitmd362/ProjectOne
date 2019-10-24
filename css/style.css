@@ -1,13 +1,18 @@
+/*
+  Golden Section Modular Scale:
+  https://www.modularscale.com/?22&px&1.618
+*/
+
 body {
   background-color: #F3BAC3;
   color: #163D57;
-  font-size: 4em;
+  font-size: 4em; /* 93px */
 }
 
 #title {
-  padding: .5em .5em .2em .5em;
-  margin: .5em .5em .2em .5em;
-  font-size: 1.5em;
+  padding: .5em .5em .2em .5em; /* 3.2 & 8.4px */
+  margin: .5em .5em .2em .5em;  /* 3.2 & 8.4px */
+  font-size: 1.5em; /* 25px */
   font-family: 'Modak', cursive, sans-serif;
 }
 
@@ -16,49 +21,49 @@ body {
 }
 
 #first_name_field {
-  padding: .5em;
+  padding: .5em; /* 8.4px */
   margin-left: 2%;
 }
 
 #last_name_field {
-  padding: .5em;
+  padding: .5em; /* 8.4px */
   margin-left: 2%;
 }
 
 #email_field {
-  padding: .5em;
+  padding: .5em; /* 8.4px */
   margin-left: 2%;
 }
 
 #phone_field {
-  padding: .5em;
+  padding: .5em; /* 8.4px */
   margin-left: 2%;
 }
 
 input[type=text] {
   width: 90%;
-  border-radius: .5em;
+  border-radius: .5em; /* 8.4px */
   border: solid #163D57;
 }
 
 input[type=email] {
   width: 90%;
-  border-radius: .5em;
+  border-radius: .5em; /* 8.4px */
   border: solid #163D57;
 }
 
 input[type=number] {
   width: 90%;
-  border-radius: .5em;
+  border-radius: .5em; /* 8.4px */
   border: solid #163D57;
 }
 
 input[type=submit] {
   background-color: #EBDDEE;
-  border-radius: .5em;
+  border-radius: .5em;  /* 8.4px */
   border: solid #163D57;
-  padding: .3em;
-  margin: .5em;
+  padding: .3em; /* 5.1px */
+  margin: .5em; /* 8.4px */
   margin-left: 8%;
   width: 80%;
 }
@@ -73,16 +78,16 @@ input[type=submit] {
 
 @media  only screen and (min-width: 1000px) {  /* tablet */
   body {
-    font-size: 2.5em;
+    font-size: 2.5em; /* 37px */
   }
 
   #title {
-    font-size: 1.5em;
-    margin-left: 3.5em;
+    font-size: 1.5em; /* 25px */
+    margin-left: 3.5em; /* 56px */
   }
 
   input[type=submit] {
-    margin-left: 1.8em;
+    margin-left: 1.8em; /* 26px */
   }
 
   #imgleft {
@@ -96,14 +101,14 @@ input[type=submit] {
 
 @media only screen and (min-width: 1300px) { /* computer  screen */
   body {
-    font-size: 1em;
+    font-size: 1em; /* 15px */
   }
 
   #title {
-    padding: .5em .5em .2em .5em;
-    margin: .5em;
-    margin-left: 10.5em;
-    font-size: 3em;
+    padding: .5em .5em .2em .5em; /* 8.4px */
+    margin: .5em;  /* 3.2 & 8.4px */
+    margin-left: 10.5em; /* 200px */
+    font-size: 3em; /* 2.4px */
     font-family: 'Modak', cursive;
   }
 
@@ -116,67 +121,67 @@ input[type=submit] {
   }
 
   #first_name_field {
-    padding: 1em;
+    padding: 1em; /* 15px */
   }
 
   #last_name_field {
-    padding: 1em;
+    padding: 1em; /* 15px */
   }
 
   #email_field {
-    padding: 1em;
+    padding: 1em; /* 15px */
   }
 
   #phone_field {
-    padding: 1em;
+    padding: 1em; /* 15px */
   }
 
   input[type=text] {
     width: 90%;
-    border-radius: .5em;
+    border-radius: .5em; /* 8.4px */
     border: solid #163D57;
   }
 
   input[type=email] {
     width: 90%;
-    border-radius: .5em;
+    border-radius: .5em; /* 8.4px */
     border: solid #163D57;
   }
 
   input[type=number] {
     width: 90%;
-    border-radius: .5em;
+    border-radius: .5em; /* 8.4px */
     border: solid #163D57;
   }
 
   input[type=submit] {
     background-color: #EBDDEE;
-    border-radius: .5em;
+    border-radius: .5em; /* 8.4px */
     border: solid #163D57;
-    padding: .3em;
-    margin: .5em;
-    margin-left: 35em;
-    margin-right: 35em;
+    padding: .3em; /* 8px */
+    margin: .5em; /* 8.4px */
+    margin-left: 35em; /* 675px */
+    margin-right: 35em; /* 675px */
     width: 20%;
   }
 
   #imgleft {
     float: left;
     display: block;
-    width: 25em;
-    height: 20em;
+    width: 25em; /* 620px */
+    height: 20em; /* 400px */
     padding: 15px;
-    margin-left: 1.875em;
-    margin-right: 2.5em;
+    margin-left: 1.875em; /* 36px */
+    margin-right: 2.5em; /* 56px */
   }
 
   #imgright {
     float: right;
     display: block;
-    width: 25em;
-    height: 20em;
+    width: 25em; /* 620px */
+    height: 20em; /* 400px */
     padding: 15px;
-    margin-left: 1.875em;
-    margin-right: 2.5em;
+    margin-left: 1.875em; /* 36px */
+    margin-right: 2.5em; /* 56px */
   }
 }
