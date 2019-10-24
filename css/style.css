@@ -8,7 +8,7 @@ body {
   padding: .5em .5em .2em .5em;
   margin: .5em .5em .2em .5em;
   font-size: 1.5em;
-  font-family: 'Modak', cursive;
+  font-family: 'Modak', cursive, sans-serif;
 }
 
 #form_body {
